@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model files (if any)
+*.pt
+*.pth
+*.bin
+
+# Exclude old/unused scripts
+multilabel_logo_hyperopt.py
+display_multimodal_results.py
+
+# Keep only essential result files - exclude individual training logs
+# but keep the final CSVs

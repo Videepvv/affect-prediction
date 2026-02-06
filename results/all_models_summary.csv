@@ -1,0 +1,11 @@
+Model,Type,Classes,Accuracy,F1 (macro)
+RF + SMOTE (Binary),Prosodic + SMOTE,2,0.5808,0.5705
+RF + SMOTE (Valence),Prosodic + SMOTE,3,0.4403,0.3373
+Late Fusion,Text + Prosodic,8,0.2727,0.1246
+Early Fusion,Text + Prosodic,8,0.2273,0.1013
+Gradient Boosting,Prosodic Only,8,0.209,0.1036
+RF + SMOTE,Prosodic + SMOTE,8,0.1826,0.116
+Logistic Regression,Prosodic Only,8,0.1791,0.1426
+Random Forest,Prosodic Only,8,0.1791,0.0781
+SVM,Prosodic Only,8,0.1194,0.0974
+Stacking,Text + Prosodic,8,0.1061,0.0664
