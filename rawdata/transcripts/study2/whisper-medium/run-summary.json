@@ -1,0 +1,47 @@
+[
+  {
+    "group": "group-2",
+    "status": "ok",
+    "out": "../transcripts/study2/whisper-medium/group-2/raw-undiarized.json"
+  },
+  {
+    "group": "group-3",
+    "status": "ok",
+    "out": "../transcripts/study2/whisper-medium/group-3/raw-undiarized.json"
+  },
+  {
+    "group": "group-4",
+    "status": "ok",
+    "out": "../transcripts/study2/whisper-medium/group-4/raw-undiarized.json"
+  },
+  {
+    "group": "group-5",
+    "status": "ok",
+    "out": "../transcripts/study2/whisper-medium/group-5/raw-undiarized.json"
+  },
+  {
+    "group": "group-6",
+    "status": "ok",
+    "out": "../transcripts/study2/whisper-medium/group-6/raw-undiarized.json"
+  },
+  {
+    "group": "group-7",
+    "status": "ok",
+    "out": "../transcripts/study2/whisper-medium/group-7/raw-undiarized.json"
+  },
+  {
+    "group": "group-8",
+    "status": "ok",
+    "out": "../transcripts/study2/whisper-medium/group-8/raw-undiarized.json"
+  },
+  {
+    "group": "group-9",
+    "status": "ok",
+    "out": "../transcripts/study2/whisper-medium/group-9/raw-undiarized.json"
+  },
+  {
+    "group": "group-10",
+    "status": "ok",
+    "out": "../transcripts/study2/whisper-medium/group-10/raw-undiarized.json"
+  }
+]
