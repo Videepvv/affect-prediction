@@ -1,4 +1,0 @@
-Experiment,Accuracy,F1 (macro),F1 (weighted)
-Original 8 classes,0.1826 ± 0.0393,0.1160 ± 0.0187,0.1826 ± 0.0435
-Valence groups (3 classes),0.4403 ± 0.0473,0.3373 ± 0.0471,0.4380 ± 0.0471
-Binary (2 classes),0.5808 ± 0.0190,0.5705 ± 0.0115,0.5752 ± 0.0146

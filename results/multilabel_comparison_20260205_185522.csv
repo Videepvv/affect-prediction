@@ -1,3 +1,0 @@
-Model,F1 (samples),F1 (macro),Subset Acc,Hamming Loss
-Default Parameters,0.1250 ± 0.1242,0.0527 ± 0.0533,0.1066 ± 0.1145,0.1666 ± 0.0497
-Optimized Parameters,0.1535 ± 0.1162,0.0689 ± 0.0558,0.1279 ± 0.1023,0.1701 ± 0.0536

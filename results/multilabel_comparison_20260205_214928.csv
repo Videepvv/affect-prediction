@@ -1,3 +1,0 @@
-Model,F1 (samples),F1 (macro),AUROC,Kappa,Subset Acc,Hamming Loss
-Default Parameters,0.0765 ± 0.1124,0.0320 ± 0.0290,0.4597 ± 0.0471,0.0000 ± nan,0.0697 ± 0.0932,0.1527 ± 0.0208
-Optimized Parameters,0.0899 ± 0.1100,0.0402 ± 0.0335,0.4440 ± 0.0497,-0.0165 ± nan,0.0749 ± 0.0870,0.1561 ± 0.0160
