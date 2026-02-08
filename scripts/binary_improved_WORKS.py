@@ -111,15 +111,15 @@ def build_binary_dataset(df: pd.DataFrame,
     Build a balanced binary dataset for one target state.
 
     Positives: rows where label1 == target_state
-    Negatives: randomly sampled from all other rows (any label != target_state), 1:1 ratio
+    Negatives: randomly sampled unlabeled rows (label1 is NaN), 1:1 ratio
 
     Returns:
         indices: row indices into df for the selected samples
-        labels:  binary labels (1 = target state, 0 = other)
+        labels:  binary labels (1 = target state, 0 = no state)
         groups:  groupID for each selected sample
     """
     pos_mask = df['label1'] == target_state
-    neg_pool_mask = ~pos_mask  # Everything not positive is a valid negative
+    neg_pool_mask = df['label1'].isna()
 
     pos_idx = df.index[pos_mask].values
     neg_pool_idx = df.index[neg_pool_mask].values
